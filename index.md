@@ -16,19 +16,19 @@ Currently, mail service providers like Google Mail (Gmail) only provide an autom
 ![RNN Training Results](https://raw.githubusercontent.com/yashprash/Email-Prioritization-System/gh-pages/RNN%20Training%20Results.png)
 
 ### Selection of Categories/ Priorities by User
-![User Categories](https://raw.githubusercontent.com/yashprash/Email-Prioritization-System/gh-pages/User%Priorities.png)
+![User Categories](https://raw.githubusercontent.com/yashprash/Email-Prioritization-System/gh-pages/User%20Priorities.png)
 
 ### Test Email
-![Test Email](https://raw.githubusercontent.com/yashprash/Email-Prioritization-System/gh-pages/Test%Email.png)
+![Test Email](https://raw.githubusercontent.com/yashprash/Email-Prioritization-System/gh-pages/Test%20Email.png)
 
 ### Priority 1 Folder
-![Priority 1](https://raw.githubusercontent.com/yashprash/Email-Prioritization-System/gh-pages/Priority%1.png)
+![Priority 1](https://raw.githubusercontent.com/yashprash/Email-Prioritization-System/gh-pages/Priority%201.png)
 
 ### Priority 2 Folder
-![Priority 2](https://raw.githubusercontent.com/yashprash/Email-Prioritization-System/gh-pages/Priority%2.png)
+![Priority 2](https://raw.githubusercontent.com/yashprash/Email-Prioritization-System/gh-pages/Priority%202.png)
 
 ### Priority 3 Folder
-![Priority 3](https://raw.githubusercontent.com/yashprash/Email-Prioritization-System/gh-pages/Priority%3.png)
+![Priority 3](https://raw.githubusercontent.com/yashprash/Email-Prioritization-System/gh-pages/Priority%203.png)
 
 ### All Emails
-![All Emails](https://raw.githubusercontent.com/yashprash/Email-Prioritization-System/gh-pages/All%Emails.png)
+![All Emails](https://raw.githubusercontent.com/yashprash/Email-Prioritization-System/gh-pages/All%20Emails.png)
