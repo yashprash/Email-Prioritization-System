@@ -1,0 +1,100 @@
+{% extends 'textEmails/base.html' %}
+{% block body_block %}
+
+    <!-- Modal popup asking priorities -->
+    <div class="modal fade" id="prioritymodal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="exampleModalLongTitle"><b>Priorities</b></h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>Select the Priorities</p>
+                    <p>
+
+                    <form class="form" method="POST" action="{% url 'selection_p' %}">
+                    {% csrf_token %}
+
+                        <div class="card-body">
+
+
+                            <div class="form-group bmd-form-group">
+                                <div class="form-group">
+                                    <label for="priority1">Priority 1 </label>
+                                    <select name="priority1" class="form-control-range" required>
+                                        <option selected>Choose...</option>
+                                        <option>Business and Industrial</option>
+                                        <option>Science and Technology</option>
+                                        <option>Finance and News</option>
+                                        <option>Education and Government</option>
+                                        <option>Fitness and Automotive</option>
+                                        <option>Art, Entertainment and Society</option>
+                                    </select>
+
+                                </div>
+                            </div>
+
+                            <br>
+
+                            <div class="form-group bmd-form-group">
+                                <div class="form-group">
+                                    <label for="priority2">Priority 2 </label>
+                                    <select name="priority2" class="form-control-range" required>
+                                        <option selected>Choose...</option>
+                                        <option>Business and Industrial</option>
+                                        <option>Science and Technology</option>
+                                        <option>Finance and News</option>
+                                        <option>Education and Government</option>
+                                        <option>Fitness and Automotive</option>
+                                        <option>Art, Entertainment and Society</option>
+                                    </select>
+
+                                </div>
+                            </div>
+
+                            <br>
+
+                            <div class="form-group bmd-form-group">
+                                <div class="form-group">
+                                    <label for="priority3">Priority 3 </label>
+                                    <select name="priority3" class="form-control-range" required>
+                                        <option selected>Choose...</option>
+                                        <option>Business and Industrial</option>
+                                        <option>Science and Technology</option>
+                                        <option>Finance and News</option>
+                                        <option>Education and Government</option>
+                                        <option>Fitness and Automotive</option>
+                                        <option>Art, Entertainment and Society</option>
+                                    </select>
+
+                                </div>
+                            </div>
+
+
+                        </div>
+
+
+                <div class="modal-footer">
+                    <button type="submit" class="btn btn-primary">Save changes</button>
+                </div>
+                </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script type="text/javascript">
+        $(window).on('load',function(){
+            $('#prioritymodal').modal('show');
+        });
+    </script>
+
+
+
+
+
+{% endblock %}
