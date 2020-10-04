@@ -19,7 +19,7 @@ Currently, mail service providers like Google Mail (Gmail) only provide an autom
 ![User Categories](https://raw.githubusercontent.com/yashprash/Email-Prioritization-System/gh-pages/User%20Priorities.png)
 
 ### Test Email
-![Test Email](https://raw.githubusercontent.com/yashprash/Email-Prioritization-System/gh-pages/Test%20Email.png)
+![Test Email](https://raw.githubusercontent.com/yashprash/Email-Prioritization-System/gh-pages/Test%20Email.jpg)
 
 ### Priority 1 Folder
 ![Priority 1](https://raw.githubusercontent.com/yashprash/Email-Prioritization-System/gh-pages/Priority%201.png)
