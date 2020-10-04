@@ -1,0 +1,35 @@
+{% extends 'textEmails/base_sidebar.html' %}
+{% block body_block %}
+    <div class="container" style="width: 89%; float: left; z-index:1; margin-left: 140px; left: 0; padding: 2px;">
+    <h3>Priority 3 - {{ priority3 }}</h3>
+
+    <!-- Cards for emails-->
+
+    {% if mails %}
+        {% for card in mails %}
+
+            <div class="col-md-12">
+                <div class="card">
+                    <div class="card-body">
+                        <h4 class="card-title">{{ card.from_name }} <div class="form-group" style="float: right; margin-right: 50px;">{{ card.date }}</div> </h4>
+                        <h5 class="card-subtitle mb-2 text-muted"><b>{{ card.subject }}</b></h5>
+                        <p class="card-text">{{ card.body }}</p>
+                        <a href="#0" class="card-link"><i class="material-icons">reply</i>Reply</a>
+                        <a href="#0" class="card-link"><i class="material-icons">forward</i>Forward</a>
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
+    {% else %}
+
+        <div style="text-align: center; margin-top: 40px;">
+            <p class="mb-1"><h3> No Emails in this Category Yet </h3></p>
+        </div>
+
+    {% endif %}
+    <!--Cards for emails end-->
+    </div>
+
+
+
+{% endblock %}
