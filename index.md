@@ -19,7 +19,7 @@ Currently, mail service providers like Google Mail (Gmail) only provide an autom
 ![User Categories](/7.png)
 
 ### Test Email
-![Test Email](/6.png)
+![Test Email](/6.jpg)
 
 ### Priority 1 Folder
 ![Priority 1](/2.png)
