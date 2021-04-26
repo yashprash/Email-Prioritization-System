@@ -16,10 +16,10 @@ Currently, mail service providers like Google Mail (Gmail) only provide an autom
 ![RNN Training Results](/5.png)
 
 ### Selection of Categories/ Priorities by User
-![User Categories](/User%20Priorities.png)
+![User Categories](/7.png)
 
 ### Test Email
-![Test Email](/7.png)
+![Test Email](/6.png)
 
 ### Priority 1 Folder
 ![Priority 1](/2.png)
