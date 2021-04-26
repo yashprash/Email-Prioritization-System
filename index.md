@@ -13,22 +13,22 @@ The front-end user interface of the system has been designed using the Django fr
 Currently, mail service providers like Google Mail (Gmail) only provide an automated spam classifier, and classification into three fixed categories- Primary, Social and Promotions. The proposed email prioritization system has the ability to perform personalized prioritization and classification of email messages based on user’s personal interest and choice. The sample email inbox, along with the category priority folders are implemented in Python using Django. A sample database of emails is linked, from which emails are loaded. The text is extracted from the received email and the python script to perform pre-processing and prediction using the trained model, is executed on the contents of the received email. On the basis of the output vector produced, the email is placed in one of the three category folders, or is placed in the last folder if the email does not match any categories of interest to the user.
 
 ### RNN Training Results
-![RNN Training Results](/RNN%20Training%20Results.png)
+![RNN Training Results](/5.png)
 
 ### Selection of Categories/ Priorities by User
 ![User Categories](/User%20Priorities.png)
 
 ### Test Email
-![Test Email](/Test%20Email.jpg)
+![Test Email](/7.png)
 
 ### Priority 1 Folder
-![Priority 1](/Priority%201.png)
+![Priority 1](/2.png)
 
 ### Priority 2 Folder
-![Priority 2](/Priority%202.png)
+![Priority 2](/3.png)
 
 ### Priority 3 Folder
-![Priority 3](/Priority%203.png)
+![Priority 3](/4.png)
 
 ### All Emails
-![All Emails](/All%20Emails.png)
+![All Emails](/1.png)
